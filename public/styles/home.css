@@ -1,3 +1,4 @@
+
 #page-home {
     height: 100vh;
 
@@ -17,6 +18,7 @@
 }
 
 #page-home header {
+
     margin-top: 48px;
 
     display: flex;
@@ -32,10 +34,10 @@
 }
 
 #page-home header a span {
-    margin-right: 16px;
+    margin-right: 16px; 
     display: flex;
 
-    background-image: url(../assets/log-in.svg);
+    background-image: url('../assets/log-in.svg');
 
     width: 20px;
     height: 20px;
@@ -51,7 +53,7 @@
     justify-content: center;
 }
 
-#page-home main h1{
+#page-home main h1 {
     font-size: 54px;
 }
 
@@ -72,11 +74,10 @@
     align-items: center;
 
     margin-top: 40px;
-    
-    background: var(--primary-color);
+
+    background-color: var(--primary-color);
 
     transition: 400ms;
-
 }
 
 #page-home main a:hover {
@@ -90,7 +91,7 @@
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 
-    background-color: rgb(0, 0, 0, 0.08);
+    background-color: rgba(0, 0, 0, 0.08);
 
     display: flex;
     align-items: center;
@@ -99,7 +100,7 @@
 
 #page-home main a span::after {
     content: "";
-    background-image: url(../assets/search.svg);
+    background-image: url('../assets/search.svg');
 
     width: 20px;
     height: 20px;

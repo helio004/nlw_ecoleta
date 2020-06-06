@@ -1,4 +1,4 @@
-:root{
+:root {
     --title-color: #322153;
     --primary-color: #34cb79;
 }
@@ -15,22 +15,22 @@ html {
 
 body {
     background: #f0f0f5;
-    -webkit-font-smoothung: antialiased;
+    -webkit-font-smoothing: antialiased;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-h1, h2, h2, h3, h4, h5, h6 {
-    font-family: 'Ubuntu', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: Ubuntu, sans-serif;
     color: var(--title-color);
 }
 
 /* BOX MODEL
 
-Modelo de Caixa
-Toda caixa tem
+Modelo de caixa
+Toda caixa tem 
 largura, altura, espaçamentos, preenchimentos
 bordas, cor, fundo, maneira que é vista pelo html (display),
 posicionamento, alinhamentos
